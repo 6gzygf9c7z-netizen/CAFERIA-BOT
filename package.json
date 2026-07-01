@@ -1,0 +1,27 @@
+{
+  "name": "cafeteria-bot-v3",
+  "version": "3.0.0",
+  "description": "Multi-server Discord Cafeteria Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "cafeteria",
+    "bot"
+  ],
+  "author": "Ancestor",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
